@@ -68,7 +68,6 @@ void displayText(const char* text) {
     matrix.beginText(0, 1, 0xFFFFFF);
     matrix.println(text);
     matrix.endText();
-
     matrix.endDraw();
 }
 
